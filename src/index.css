@@ -1,0 +1,174 @@
+body{
+    background-color: #23252C;
+    font-family: 'Inter', sans-serif;
+}
+
+.info-section {
+    text-align: center;
+}
+
+.info-photo {
+    background-image: url(./assets/photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.info-section > h1 {
+    color: white;
+    height: 25.81px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 15px 0px 10px;
+}
+
+.info-section > h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #F3BF99;
+    margin: 5px;
+}
+
+.info-section > a {
+    height: 16px;
+    left: 161px;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+.info-buttons > button {
+    width: 120px;
+    margin: 15px 8px 0px 8px;
+    height: 34px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-email {
+    color: #374151;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    background-image: url(./assets/email.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 30px;
+    padding-left: 25px;
+}
+
+.button-linkedIn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background-color: #5093E2;
+    font-size: 14px;
+    line-height: 16px;
+    background-image: url(./assets/linkedIn.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 20px;
+    padding-left: 25px;
+}
+
+.about-section {
+    color: white;
+    margin: 30px 30px 0px 30px;
+}
+
+.about-section > h2 {
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 150%;
+    margin-bottom: 0px;
+}
+
+.about-section > p {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+    margin: 5px 0 20px;
+}
+
+.interests-section {
+    color: white;
+    margin: 0px 30px 0px 30px;
+}
+
+.interests-section > h2 {
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 150%;
+    margin-bottom: 0px;
+}
+
+.interests-section > p {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+    margin: 5px 0 20px;
+}
+
+.footer-section {
+    margin-top: 30px;
+    background-color: #161619;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 64px;
+    border-radius: 0 0 10px 10px;
+}
+
+.footer-section > a {
+    height: 25px;
+    margin: 19px 10px 0px 10px;
+}
+
+.footer-github-icon {
+    background-image: url(./assets/github-icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+}
+
+.footer-instagram-icon {
+    background-image: url(./assets/instagram-icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+}
+
+.footer-facebook-icon {
+    background-image: url(./assets/facebook-icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+}
+
+.footer-twitter-icon {
+    background-image: url(./assets/twitter-icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+}
+
